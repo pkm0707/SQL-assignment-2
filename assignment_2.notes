@@ -47,50 +47,9 @@ INSERT INTO Guvi_Zen_Class VALUES (37, "Database - MySQL", "Design DB model for 
 INSERT INTO Guvi_Zen_Class VALUES (38, "Database - MongoDB", "MongoDB queries","Sangeetha Shanmugam");
 INSERT INTO Guvi_Zen_Class VALUES (39, "MongoDB", "database-design-zen-class","Sangeetha Shanmugam");
 
+-- Table 2
+
 -- fetch 
 SELECT * FROM Guvi_Zen_Class;
-
-Output:
-
-DAY	  TOPIC	                                  TASK	                                              MENTOR
-1	    Introduction to Browser & web	          Introduction to Browser & web	                      Sangeetha Shanmugam
-2	    Request & Response cycle	              Request & Response cycle	                          Sangeetha Shanmugam
-3	    JS array & objects	                    Looping Of Arrays & Objects	                        Sangeetha Shanmugam
-4	    What is XMLHTTP Request? & scope	      XMLHTTP Request	                                    Sangeetha Shanmugam
-5	    Functions	                              IIFE & Annoymous Function	                          Sangeetha Shanmugam
-6	    Functions                               recap	Functions	                                    Sangeetha Shanmugam    
-7	    ES5 vs ES6	                            NIL	                                                Sangeetha Shanmugam
-8	    OOP	                                    OOP PROBLEMS	                                      Sangeetha Shanmugam          
-9	    MRF Array Method	                      MRF Method	                                        Sangeetha Shanmugam
-10	  Complete Recap	                        NIL	                                                Sangeetha Shanmugam
-11	  HTML	                                  HTML & CSS Mini Task	                              Sangeetha Shanmugam       
-12	  HTML recap CSS	                        NIL	                                                Sangeetha Shanmugam
-13	  CSS	                                    NIL	                                                Sangeetha Shanmugam
-14	  CSS	                                    NIL	                                                Sangeetha Shanmugam
-15	  Responsive web design	                  NIL	                                                Sangeetha Shanmugam
-16	  Bootstrap design demo	                  Responsive Design	                                  Sangeetha Shanmugam
-17	  DOM	                                    NIL	                                                Sangeetha Shanmugam
-18	  Document vs Window	                    NIL	                                                Sangeetha Shanmugam
-19	  Recap of Topics	                        CALCULATOR HTMLForms PAGINATION	                    Sangeetha Shanmugam
-20	  Recap of Topics	                        NIL	                                                Sangeetha Shanmugam
-21	  Callback	                              Callback hell	                                      Sangeetha Shanmugam
-22	  Promise	                                NIL	                                                Sangeetha Shanmugam
-23	  Fetch Api	                              NIL	                                                Sangeetha Shanmugam
-24	  Promise_fetch - req info & req init	    NIL	                                                Sangeetha Shanmugam
-25	  Recap of Topics	                        3 API TASKS	                                        Sangeetha Shanmugam
-26	  REACT	                                  Pricing Table	                                      Sangeetha Shanmugam
-27	  React                                   hooks & states	Shop-Homepage	                      Sangeetha Shanmugam
-28	  React components	                      Dashboard	                                          Sangeetha Shanmugam
-29	  React router	                          CRUD_Userlist	                                      Sangeetha Shanmugam
-30	  recap with previous day topics	        NIL	                                                Sangeetha Shanmugam
-31	  Context API	                            API task completion using context	                  Sangeetha Shanmugam
-32	  recap with previous day topics	        NIL	                                                Sangeetha Shanmugam
-33	  AXIOS	                                  CRUD using Axios	                                  Sangeetha Shanmugam
-34	  formik in react	                        CRUD for product with validation	                  Sangeetha Shanmugam
-35	  practice with formik & recap	          NIL	                                                Sangeetha Shanmugam
-36	  Database - MySQL	                      MYSQL queries	                                      Sangeetha Shanmugam
-37	  Database - MySQL	                      Design DB model for Guvi Zen class	                Sangeetha Shanmugam
-38	  Database - MongoDB	                    MongoDB queries	                                    Sangeetha Shanmugam
-39	  MongoDB	                                database-design-zen-class	                          Sangeetha Shanmugam
 
 -- Table 2
