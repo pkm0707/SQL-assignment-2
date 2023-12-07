@@ -94,6 +94,31 @@ CREATE TABLE Guvi_Zen_Class_WEBCODE_and_CAPSTONE (
 -- insert values
 INSERT INTO Guvi_Zen_Class_WEBCODE_and_CAPSTONE VALUES ('','');
 
+-- Table 5
+-- create table
+CREATE TABLE Guvi_Zen_Class_Queries (
+  Queries TEXT NOT NULL
+);
+-- insert values
+INSERT INTO Guvi_Zen_Class_Queries VALUES ('QN53674 - functions and codekata practice Closed Zen-Class Doubt 29/09/2023 1:31 PM');
+INSERT INTO Guvi_Zen_Class_Queries VALUES ('QN52467 - Regarding how to submit the task in ZEN portal Closed Zen-Class Doubt 21/09/2023 12:19 PM Recent query');
+
+-- Table 6
+-- create table
+CREATE TABLE My_Applications (
+  Applications TEXT NOT NULL
+);
+-- insert values
+INSERT INTO My_Applications VALUES ('Content available after completing Placement preparation');
+
+-- Table 7
+-- create table
+CREATE TABLE Interview_tasks (
+  Task_Submission TEXT NOT NULL
+);
+-- insert values
+INSERT INTO Interview_tasks VALUES ('Content available after completing Placement preparation');
+
 -- fetch 
-SELECT * FROM Guvi_Zen_Class,Guvi_Zen_Class_Dashboard,Guvi_Zen_Class_TaskSubmission,Guvi_Zen_Class_WEBCODE_and_CAPSTONE;
+SELECT * FROM Guvi_Zen_Class,Guvi_Zen_Class_Dashboard,Guvi_Zen_Class_TaskSubmission,Guvi_Zen_Class_WEBCODE_and_CAPSTONE,Guvi_Zen_Class_Queries,My_Applications,Interview_tasks;
 
