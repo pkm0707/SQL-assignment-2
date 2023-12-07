@@ -48,8 +48,42 @@ INSERT INTO Guvi_Zen_Class VALUES (38, "Database - MongoDB", "MongoDB queries","
 INSERT INTO Guvi_Zen_Class VALUES (39, "MongoDB", "database-design-zen-class","Sangeetha Shanmugam");
 
 -- Table 2
+-- create table
+CREATE TABLE Guvi_Zen_Class_Dashboard (
+  Attendance TEXT NOT NULL,
+  Activities TEXT NOT NULL,
+  Task Text NOT NULL
+);
+-- insert values
+INSERT INTO Guvi_Zen_Class_Dashboard VALUES ('present', 'Codekata & Webkata', 'Completed Task:10 & Pending Task:1 ');
+INSERT INTO Guvi_Zen_Class_Dashboard VALUES ('absent', 'Codekata & Webkata', 'Completed Task:11 & Pending Task:0 ');
+INSERT INTO Guvi_Zen_Class_Dashboard VALUES ('present', 'Codekata & Webkata', 'Completed Task:11 & Pending Task:1 ');
 
+-- Table 3
+-- create table
+CREATE TABLE Guvi_Zen_Class_TaskSubmission (
+  Task_Submission TEXT NOT NULL
+);
+-- insert values
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -JavaScript - Day -1: Introduction to Browser & web submitted on 22/09/2023 8 Task');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -JavaScript - Day -2: Datatypes submitted on 23/09/2023 9.5 Task');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -JavaScript - Day -3: JS array & objects submitted on 26/09/2023 7 Task');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -JavaScript - Day -4: Functions submitted on 29/09/2023 6');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -JavaScript - Day -5: ES5 vs ES6 submitted on 29/09/2023 9');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -JavaScript - Day -6: OOP in JS submitted on 07/10/2023 4');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -JavaScript - Day -6: OOP in JS submitted on 07/10/2023 4');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -JavaScript - Day -7: Array methods submitted on 07/10/2023 7');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -HTML & CSS- Day -5: HTML & CSS submitted on 20/10/2023 6');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -DOM- Day -3: Recap of Topics submitted on 27/10/2023 9');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -Async programming- Day -1: Callback submitted on 30/10/2023 8');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -Async programming- Day -2: Promise submitted on 04/11/2023 7');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -React- Day -2: React submitted on 21/11/2023 6.5');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -React- Day -3: React hooks & states submitted on 23/11/2023 7');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -React- Day -6: Router submitted on 26/11/2023 8');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -React- Day -8: Context API submitted on 26/11/2023 6.5');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -React- Day -5: React Hooks submitted on 27/11/2023 7');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -Async programming- Day -5: Recap of topics submitted on 27/11/2023 6');
+INSERT INTO Guvi_Zen_Class_TaskSubmission VALUES ('Praveen kumar M (B52 WD English) -Database- Day -1: MySQL submitted on 02/12/2023 9 Task');
 -- fetch 
-SELECT * FROM Guvi_Zen_Class;
+SELECT * FROM Guvi_Zen_Class,Guvi_Zen_Class_Dashboard,Guvi_Zen_Class_TaskSubmission;
 
--- Table 2
